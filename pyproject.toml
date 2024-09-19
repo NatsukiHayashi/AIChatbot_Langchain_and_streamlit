@@ -1,0 +1,29 @@
+[project]
+name = "010-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "NatsukiHayashi" }
+]
+dependencies = [
+    "streamlit>=1.38.0",
+    "langchain>=0.3.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.6.5",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/_010_tutorial"]
