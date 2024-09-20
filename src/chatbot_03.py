@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
-from langchain.schema import (SystemMessage, HumanMessage, AIMessage)
+from langchain.schema import AIMessage, HumanMessage, SystemMessage
+
 
 def main():
     llm = ChatOpenAI(temperature=0)
