@@ -8,6 +8,9 @@ authors = [
 dependencies = [
     "streamlit>=1.38.0",
     "langchain>=0.3.0",
+    "mypy>=1.11.2",
+    "langchain-community>=0.3.0",
+    "openai>=1.46.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
