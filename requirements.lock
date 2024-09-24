@@ -153,6 +153,8 @@ python-dateutil==2.9.0.post0
     # via pandas
 python-dotenv==1.0.1
     # via pydantic-settings
+pytube==15.0.0
+    # via 010-tutorial
 pytz==2024.2
     # via pandas
 pyyaml==6.0.2
@@ -168,6 +170,7 @@ requests==2.32.3
     # via langchain-community
     # via langsmith
     # via streamlit
+    # via youtube-transcript-api
 rich==13.8.1
     # via streamlit
 rpds-py==0.20.0
@@ -217,3 +220,5 @@ urllib3==2.2.3
     # via requests
 yarl==1.11.1
     # via aiohttp
+youtube-transcript-api==0.6.2
+    # via 010-tutorial
