@@ -164,12 +164,15 @@ pyyaml==6.0.2
 referencing==0.35.1
     # via jsonschema
     # via jsonschema-specifications
+regex==2024.9.11
+    # via tiktoken
 requests==2.32.3
     # via 010-tutorial
     # via langchain
     # via langchain-community
     # via langsmith
     # via streamlit
+    # via tiktoken
     # via youtube-transcript-api
 rich==13.8.1
     # via streamlit
@@ -196,6 +199,8 @@ tenacity==8.5.0
     # via langchain-community
     # via langchain-core
     # via streamlit
+tiktoken==0.7.0
+    # via 010-tutorial
 toml==0.10.2
     # via streamlit
 tornado==6.4.1
